@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -11,9 +15,16 @@ body {
 /* Global */
 .container {
   width: 80%;
-  max-width: 1340px;
+  max-width: 1140px;
   margin: auto;
   overflow: hidden;
+}
+
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #fff;
+  margin: 10px 0;
 }
 
 ul {
@@ -28,6 +39,7 @@ ul {
   border: none;
   padding: 0 20px;
 }
+
 
 /* Header */
 header {
@@ -112,10 +124,12 @@ header a:hover {
 }
 
 #newsletter input[type="email"] {
+  margin-right: 5px;
   padding: 4px;
-  height: 25px;
+  height: 38px;
   width: 250px;
 }
+
 
 /* Techologies */
 #technologies {
@@ -142,6 +156,29 @@ footer {
   text-align: center;
 }
 
+
+/* Main Content Column */
+article#main-col {
+  float: left;
+  width: 70%;
+  margin-top: 15px;
+  padding-right: 60px;
+}
+
+
+/* Sidebar */
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+aside#sidebar h3 {
+  margin-top: 0;
+}
+
+
+/* Footer */
 footer p {
   margin: 0;
 }
