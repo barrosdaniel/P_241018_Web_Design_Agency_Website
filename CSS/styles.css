@@ -21,6 +21,14 @@ ul {
   padding: 0;
 }
 
+.button-1 {
+  height: 38px;
+  color: #fff;
+  background: #e8491d;
+  border: none;
+  padding: 0 20px;
+}
+
 /* Header */
 header {
   background: #35424a;
@@ -73,7 +81,7 @@ header a:hover {
   min-height: 400px;
   background: url('../IMG/showcase.jpg') no-repeat 0 -350px;
   text-align: center;
-  color: #f4f4f4;
+  color: #fff;
 }
 
 #showcase h1 {
@@ -84,4 +92,27 @@ header a:hover {
 
 #showcase p {
   font-size: 20px;
+}
+
+
+/* Newsletter */
+#newsletter {
+  padding: 15px;
+  color: #fff;
+  background: #35424a;
+}
+
+#newsletter h1 {
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
 }
