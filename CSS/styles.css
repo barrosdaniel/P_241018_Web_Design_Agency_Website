@@ -177,6 +177,21 @@ aside#sidebar h3 {
   margin-top: 0;
 }
 
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
+  width: 90%;
+  padding: 5px;
+}
+
+
+/* Services */
+ul#services li {
+  list-style: none;
+  padding: 20px;
+  border: #35424a solid 1px;
+  margin-bottom: 5px;
+  background: #e2e2e2;
+}
 
 /* Footer */
 footer p {
