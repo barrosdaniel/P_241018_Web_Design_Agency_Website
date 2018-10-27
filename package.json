@@ -1,0 +1,23 @@
+{
+  "name": "P_241018_Web_Design_Agency_Website",
+  "version": "1.0.0",
+  "description": "Web Design Agency Website",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d P_241018_Web_Design_Agency_Website"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barrosdaniel/P_241018_Web_Design_Agency_Website.git"
+  },
+  "keywords": [],
+  "author": "Daniel Barros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barrosdaniel/P_241018_Web_Design_Agency_Website/issues"
+  },
+  "homepage": "https://barrosdaniel.github.io/P_241018_Web_Design_Agency_Website",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
