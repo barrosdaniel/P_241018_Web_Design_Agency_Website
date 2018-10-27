@@ -4,7 +4,7 @@
   "description": "Web Design Agency Website",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d P_241018_Web_Design_Agency_Website"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
