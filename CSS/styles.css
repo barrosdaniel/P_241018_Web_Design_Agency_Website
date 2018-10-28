@@ -92,7 +92,11 @@ header a:hover {
 /* Showcase */
 #showcase {
   min-height: 400px;
-  background: url('../IMG/showcase.jpg') no-repeat 0 -350px;
+  background: url('../IMG/showcase.png') no-repeat 0 -350px;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5),
+  ), url(showcase.jpg);
   text-align: center;
   color: #fff;
 }
@@ -183,6 +187,7 @@ aside#sidebar .quote textarea {
   height: 38px;
   padding: 5px;
   margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -191,8 +196,9 @@ ul#services li {
   list-style: none;
   padding: 20px;
   border: #35424a solid 1px;
-  margin-bottom: 5px;
-  background: #e2e2e2;
+  margin-bottom: 30px;
+  background: #ededed;
+  border-radius: 6px;
 }
 
 /* Footer */
@@ -228,6 +234,7 @@ footer p {
 
   #showcase h1 {
     margin: 20px 0;
+    font-size: 40px;
   }
 
   #newsletter button,
